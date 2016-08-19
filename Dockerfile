@@ -10,7 +10,7 @@ RUN \
 
 # THREDDS
 ENV THREDDS_VERSION 5.0.0-SNAPSHOT
-ENV THREDDS_WAR_NAME 5.0.0-20160708.184540-12
+ENV THREDDS_WAR_NAME 20160815.201802-16
 ENV THREDDS_WAR_URL https://artifacts.unidata.ucar.edu/content/repositories/unidata-snapshots/edu/ucar/tds/$THREDDS_VERSION/tds-$THREDDS_WAR_NAME.war
 
 RUN curl -fSL "$THREDDS_WAR_URL" -o thredds.war
